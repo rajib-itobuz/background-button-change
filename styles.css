@@ -6,8 +6,16 @@
 
 body {
   display: flex;
+  justify-content: space-between;
   flex-direction: column;
   align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+body div {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
 }
 
 button {
